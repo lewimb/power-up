@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "name": "Gaming Laptop",
+      "brand_id": 1,
+      "quantity": 50,
+      "img_url": "https://example.com/images/gaming_laptop.jpg",
+      "spec": {
+        "graphicsCard": "NVIDIA GeForce RTX 3070",
+        "os": "Windows 11",
+        "cpu": "Intel Core i7-11800H",
+        "refreshRate": "144Hz",
+        "screenSize": "15.6 inches",
+        "memory": "16GB DDR4",
+        "storage": "1TB SSD"
+      },
+      "description": "High-performance gaming laptop with 144Hz refresh rate and powerful RTX 3070 GPU.",
+      "price": 1499.99,
+      "rating": 4.7,
+      "category_id": 1
+    },
+    {
+      "name": "Ultrabook",
+      "brand_id": 2,
+      "quantity": 30,
+      "img_url": "https://example.com/images/ultrabook.jpg",
+      "spec": {
+        "graphicsCard": "Intel Iris Xe",
+        "os": "Windows 11",
+        "cpu": "Intel Core i5-1135G7",
+        "refreshRate": "60Hz",
+        "screenSize": "13.3 inches",
+        "memory": "8GB LPDDR4x",
+        "storage": "512GB SSD"
+      },
+      "description": "Sleek and portable ultrabook with Intel Iris Xe graphics and long battery life.",
+      "price": 999.99,
+      "rating": 4.5,
+      "category_id": 2
+    },
+    {
+      "name": "Desktop PC",
+      "brand_id": 3,
+      "quantity": 20,
+      "img_url": "https://example.com/images/desktop_pc.jpg",
+      "spec": {
+        "graphicsCard": "AMD Radeon RX 6800 XT",
+        "os": "Windows 10",
+        "cpu": "AMD Ryzen 9 5900X",
+        "memory": "32GB DDR4",
+        "storage": "2TB SSD"
+      },
+      "description": "Powerful desktop PC with AMD Ryzen 9 CPU and Radeon RX 6800 XT graphics for intensive tasks.",
+      "price": 1999.99,
+      "rating": 4.8,
+      "category_id": 3
+    },
+    {
+      "name": "Business Laptop",
+      "brand_id": 2,
+      "quantity": 40,
+      "img_url": "https://example.com/images/business_laptop.jpg",
+      "spec": {
+        "graphicsCard": "Intel UHD Graphics",
+        "os": "Windows 10 Pro",
+        "cpu": "Intel Core i7-10510U",
+        "refreshRate": "60Hz",
+        "screenSize": "14 inches",
+        "memory": "16GB DDR4",
+        "storage": "512GB SSD"
+      },
+      "description": "Reliable business laptop with Intel Core i7 processor and Windows 10 Pro.",
+      "price": 1299.99,
+      "rating": 4.6,
+      "category_id": 1
+    },
+    {
+      "name": "2-in-1 Convertible",
+      "brand_id": 1,
+      "quantity": 25,
+      "img_url": "https://example.com/images/convertible.jpg",
+      "spec": {
+        "graphicsCard": "Intel Iris Xe",
+        "os": "Windows 11",
+        "cpu": "Intel Core i5-1145G7",
+        "refreshRate": "60Hz",
+        "screenSize": "13.3 inches",
+        "memory": "8GB LPDDR4x",
+        "storage": "256GB SSD"
+      },
+      "description": "Versatile 2-in-1 convertible laptop with touch screen and Intel Iris Xe graphics.",
+      "price": 899.99,
+      "rating": 4.4,
+      "category_id": 1
+    },
+    {
+      "name": "Gaming Desktop",
+      "brand_id": 3,
+      "quantity": 15,
+      "img_url": "https://example.com/images/gaming_desktop.jpg",
+      "spec": {
+        "graphicsCard": "NVIDIA GeForce RTX 3080",
+        "os": "Windows 11",
+        "cpu": "AMD Ryzen 7 5800X",
+        "memory": "16GB DDR4",
+        "storage": "1TB SSD"
+      },
+      "description": "High-end gaming desktop with NVIDIA GeForce RTX 3080 and AMD Ryzen 7 processor.",
+      "price": 2299.99,
+      "rating": 4.9,
+      "category_id": 3
+    },
+    {
+      "name": "Chromebook",
+      "brand_id": 2,
+      "quantity": 60,
+      "img_url": "https://example.com/images/chromebook.jpg",
+      "spec": {
+        "graphicsCard": "Integrated",
+        "os": "Chrome OS",
+        "cpu": "Intel Celeron N4020",
+        "refreshRate": "60Hz",
+        "screenSize": "11.6 inches",
+        "memory": "4GB LPDDR4",
+        "storage": "32GB eMMC"
+      },
+      "description": "Compact and affordable Chromebook with Intel Celeron processor and Chrome OS.",
+      "price": 299.99,
+      "rating": 4.2,
+      "category_id": 2
+    },
+    {
+      "name": "Workstation Desktop",
+      "brand_id": 1,
+      "quantity": 10,
+      "img_url": "https://example.com/images/workstation_desktop.jpg",
+      "spec": {
+        "graphicsCard": "NVIDIA Quadro RTX 4000",
+        "os": "Windows 10 Pro",
+        "cpu": "Intel Xeon W-2235",
+        "memory": "64GB DDR4",
+        "refreshRate": "60Hz",
+        "storage": "2TB SSD"
+      },
+      "description": "Professional workstation desktop with Intel Xeon CPU and NVIDIA Quadro RTX 4000 for demanding applications.",
+      "price": 3499.99,
+      "rating": 4.9,
+      "category_id": 3
+    }
+  ],
+  "categories": [
+    {
+      "name": "Laptops",
+      "img_url": "https://example.com/icons/asus.png"
+    },
+    {
+      "name": "Ultrabooks",
+      "img_url": "https://example.com/icons/asus.png"
+    },
+    {
+      "name": "Desktops",
+      "imgUrl": "https://example.com/icons/asus.png"
+    }
+  ],
+  "brands": [
+    {
+      "name": "ASUS",
+      "imgUrl": "https://example.com/icons/asus.png"
+    },
+    {
+      "name": "Dell",
+      "imgUrl": "https://example.com/icons/dell.png"
+    },
+    {
+      "name": "HP",
+      "imgUrl": "https://example.com/icons/hp.png"
+    }
+  ]
+}
