@@ -1,8 +1,8 @@
 module.exports = {
   up: `CREATE TABLE categories (
         id serial NOT NULL PRIMARY KEY,
-        categoryName varchar(20) NOT NULL,
-        imgUrl varchar(255) NOT NULL
+        name varchar(20) NOT NULL,
+        img_url varchar(255) NOT NULL
     )`,
   down: "DROP TABLE categories",
 };

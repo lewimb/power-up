@@ -1,8 +1,8 @@
 module.exports = {
-    "up": `CREATE TABLE brand(
+  up: `CREATE TABLE brands(
         id SERIAL PRIMARY KEY NOT NULL,
-        brandName VARCHAR(30) NOT NULL,
-        imgUrl VARCHAR(255) NOT NULL
+        name VARCHAR(30) NOT NULL,
+        img_url VARCHAR(255) NOT NULL
     )`,
-    "down": `DROP TABLE brand`
-}
+  down: `DROP TABLE brands`,
+};
